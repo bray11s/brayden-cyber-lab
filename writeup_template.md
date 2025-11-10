@@ -1,24 +1,19 @@
-# brayden-cyber-lab
+# {Title} — {Platform} (e.g., TryHackMe / HTB)
+**Date:** YYYY-MM-DD  
+**Difficulty:** easy | medium | hard  
+**Tools:** nmap, gobuster, ssh, gobuster, ghidra, etc.
 
-Journey from baseline → practical offensive capability. This repo is my lab notebook and portfolio while I learn pentesting and reverse engineering.
+## Objective
+Short description of lab target and goal.
 
-## Repo contents
-- `writeups/` — TryHackMe & HackTheBox writeups (lab-only, legal)
-- `tools/` — small scripts I build to help workflows (activity logging, parsers)
-- `templates/` — writeup templates, checklists
-- `activities.json` — central activity state (gym, study, sleep entries)
+## Recon / Enumeration
+Commands used (nmap etc.) and important outputs (redact any sensitive).
 
-## Short-term goals (first 12 weeks)
-1. Complete TryHackMe Pre-Security + Linux fundamentals.
-2. Publish 6 writeups to `writeups/`.
-3. Build a small Python tool (`tools/log_activity.py`) to record gym & study check-ins.
-4. Prepare for an entry practical cert (eJPT / TryHackMe pathway).
+## Exploitation / Steps
+Step-by-step: how you got from low privileges to root. Keep it high-level for job readers.
 
-## How to use this repo
-- Add every solved lab to `writeups/` with a short notes file.
-- Use `tools/log_activity.py` to mark gym/study sessions — it updates `activities.json`.
-- Keep the README updated with progress and certificates.
+## Post-exploit / Lessons
+What you learned, tools that helped, what you’d automate next time.
 
-## Contact / Links
-- GitHub: github.com/bray11s/brayden-cyber-lab
-- LinkedIn: <your-link>
+## TL;DR
+One-sentence summary and commands to re-run.
